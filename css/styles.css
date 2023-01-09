@@ -7,7 +7,7 @@
   --color-WHITE: #ffffff;
   --color-OCEAN: #404bbf;
   --color-GREEN: #31d0aa;
-  --color-LIGHT-SLAIGHT: #8E8F99;
+  --color-LIGHT-SLAIGHT: #8e8f99;
 }
 
 *,
@@ -339,21 +339,20 @@ p {
 .customers-link {
   width: 100%;
   height: 88px;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
-  fill: currentColor;
-}
-
-.customers-icon {
-  fill: var(--color-LIGHT-SLAIGHT);
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--color-LIGHT-SLAIGHT);
 }
 
-.customers-icon:hover {
+.customers-link:hover {
   fill: var(--color-OCEAN);
   border: 1px solid var(--color-OCEAN);
 }
+
+
 
 /* ___________FOOTER__________ */
 
@@ -497,7 +496,6 @@ p {
 }
 
 .gallery-link:hover {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -518,9 +516,4 @@ p {
 .gallery-program {
   line-height: 1.5;
   color: var(--color-SLATE);
-}
-
-.gallary-item:hover {
-  border: 1px solid #e7e9fc;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
