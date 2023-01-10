@@ -427,7 +427,7 @@ p {
 }
 
 .soc-media-link:hover,
-.soc-media-link:hover {
+.soc-media-link:focus {
   background-color: var(--color-GREEN);
 }
 
